@@ -64,7 +64,7 @@ class ConsoleMenu(object):
             else:
                 print(char_type * int(custom_width))
 
-    def insert_values(self, values: list, t_values: list=[]):
+    def insert_values(self, values: list):
         c = self.count_from
         for item in values:
             if self.type == NUMBERED:
